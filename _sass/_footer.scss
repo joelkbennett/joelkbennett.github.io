@@ -1,3 +1,9 @@
-@media only screen and (min-width: 35em) {
+.site-footer {
+  
+}
 
+@media only screen and (min-width: 35em) {
+  .footer-heading {
+    display: none;
+  }
 }
