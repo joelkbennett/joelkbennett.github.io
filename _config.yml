@@ -1,0 +1,9 @@
+title: Jobenko
+email: joelkbennett@gmail.com
+description: >
+  A collection of work by Front-End Developer and Graphic Designer Joel K Bennett.
+baseurl: "" 
+url: "https://jobenko.com"
+twitter_username: joelkbennett
+github_username:  joelkbennett
+markdown: kramdown
