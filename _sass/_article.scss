@@ -7,18 +7,25 @@
 }
 
 .article-title {
-  background-color: #333;
+  background-color: $black;
   color: #f6f6f6;
   display: inline-block;
-  font-size: 2em;
-  margin-bottom: .5em;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 1.5em;
   padding: 0 .5em;
+  text-transform: uppercase;
 }
 
 .article-subtitle {
-  color: lighten($black, 30%);
-  font-size: 2em;
-  line-height: 1.3em;
+  color: #black;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.4em;
+}
+
+.article-subtitle span {
+  background-color: #E4E0E3; //#4E2E45; // #573A4C;
 }
 
 .article-content {
@@ -32,10 +39,11 @@
 @media only screen and (min-width: $mid-break) {
   .article {
     margin-left: 5em;
+    margin-right: 1em;
   }
 
   .article-subtitle {
     margin-left: -1em;
-    max-width: 800px;
+    max-width: 700px;
   }
 }

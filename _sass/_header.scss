@@ -1,7 +1,11 @@
 .site-header {
-  background: url('http://placehold.it/450x800') no-repeat;
+  background: url('/images/header-bg-alt.jpg') no-repeat;
   background-size: cover;
   width: 100%;  
+}
+
+.site-description {
+  color: $white;
 }
 
 @media only screen and (min-width: $mid-break) {
@@ -11,5 +15,9 @@
     top: 0;
     left: 0;
     width: 30%;
+  }
+
+  .site-description {
+    margin-top: 2em;
   }
 }

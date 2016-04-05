@@ -1,19 +1,20 @@
 ---
 layout: default
+body-tag: projects
 ---
 
 <article id="project" class='article'>
   <h1 class="page-heading article-title">Recent Projects</h1>
 
   <ul class="project-list">
-    {% for project in site.posts %}
+    {% for project in site.categories.project %}
       <li>
         <div class="columns">
           <div class="column">
-            <img src="{{ project.imageA }}" alt="">
+            <img src="/images/{{ project.imageA }}" alt="{{ project.title }} screenshot">
           </div>
           <div class="column">
-            <img src="{{ project.imageB }}" alt="">
+            <img src="/images/{{ project.imageB }}" alt="{{ project.title }} screenshot">
           </div>
         </div>
 
@@ -33,8 +34,8 @@ layout: default
           <div class="column">
             <div class="wrapper">
               <ul class='project-meta'>
-                <li><p>Tech: Rails, jQuery, Handlebars, Canvas</p></li>
-                <li><p>Github / Web</p></li>
+                <li><p><strong><em>Tech:</em></strong> {{ project.tech }}</p></li>
+                <li><p><strong><em>Links:</em></strong> Github / Web</p></li>
               </ul>
             </div>
           </div>

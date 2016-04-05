@@ -1,6 +1,11 @@
 .project-title {
+  background-color: white;
+  border-bottom: 5px solid #ddd;
+  display: inline-block;
   font-weight: 900;
-  font-color: #666;
+  margin-top: -50px;
+  padding: 0 .5em;
+  padding-bottom: em;
 }
 
 @media only screen and (min-width: 35em) {

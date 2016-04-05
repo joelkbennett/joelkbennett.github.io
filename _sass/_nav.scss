@@ -1,5 +1,20 @@
 .site-nav {
-  
+  border-bottom: thin solid $black;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: .5em 0 1em 0;
+  text-transform: uppercase;
+}
+
+.site-nav li {
+  display: inline;
+  padding-right: 1em;
+}
+
+#projects .site-nav .projects,
+#blog .site-nav .blog,
+#about .site-nav .about {
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 35em) {

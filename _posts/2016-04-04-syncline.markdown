@@ -1,12 +1,14 @@
 ---
 layout: project
-title:  'Syncline.ca'
+title:  'Syncline'
 subtitle: 'A tool aimed at geotechnical engineers to streamline the process of collecting, reviewing and approving site investigation information.'
 date:   2016-04-04 10:34:20 -0700
-categories: project ruby javascript
-imageA: http://placehold.it/1000x1000
-imageB: http://placehold.it/1000x1000
+category: project
+tech: Ruby/Rails, Postgres, Javascript/jQuery, Bulma, Photoshop, Illustrator
+imageA: syncline-1.jpg
+imageB: syncline-2.jpg
 web_link: http://syncline.ca
 github_link: https://joelkbennett.github.com/syncline
+published: true
 ---
 
