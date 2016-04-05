@@ -23,14 +23,18 @@ figcaption {
 .icon {
   > svg {
     display: inline-block;
-    width: 16px;
-    height: 16px;
+    width: 28px;
+    height: 28px;
     vertical-align: middle;
 
     path {
-        fill: $grey-color;
+        fill: $black;
     }
   }
+}
+
+#logo-jobenko {
+  max-width: 350px;
 }
 
 @media only screen and (min-width: 35em) {

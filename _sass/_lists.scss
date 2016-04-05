@@ -15,8 +15,13 @@ li {
   margin-left: 1em;
 }
 
-.social-media-list {
-  
+.social-media-list li {
+  display: inline;
+  margin-right: .5em;
+}
+
+.project-meta p {
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 35em) {

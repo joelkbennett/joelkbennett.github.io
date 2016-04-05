@@ -5,10 +5,28 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-.wrapper {
-  padding: .5em;
+body {
+
 }
 
-@media only screen and (min-width: 35em) {
+.wrapper {
+  padding: 2em;
+}
 
+.column .wrapper {
+  padding: .5em 1em 2em 1em;
+}
+
+@media only screen and (min-width: $mid-break) {
+  .main-content {
+    margin-left: 30%;
+
+    .wrapper {
+      padding-right: 0;
+    }
+  } 
+
+  .intro {
+    padding-right: 30%;
+  }
 }

@@ -1,6 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,900,400italic);
+
 $base-font-size: 1em;
-$base-font-weight: 300;
-$base-line-height: 1.4;
+$base-font-weight: 400;
+$base-line-height: 1.5;
 $base-font-family: 'Lato', sans-serif;
 
-$text-color: #333;
+$small-font-size: .75em;
+
+$spacing-unit: 1em;
+
+$grey-color: #888;
+$grey-color-light: #eee;
+$grey-color-dark: #555;
+$black: #333;
+$background-color: #f6f6f6;
+
+$text-color: $black;
+$brand-color: $black;
+
+$bottom-border: 2px solid $black;
+
+$small-break: 35em;
+$mid-break: 60em;
+$large-break: 80em;

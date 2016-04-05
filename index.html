@@ -2,22 +2,51 @@
 layout: default
 ---
 
-<div class="home">
+<article id="project" class='article'>
+  <h1 class="page-heading article-title">Recent Projects</h1>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <ul class="project-list">
+    {% for project in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="columns">
+          <div class="column">
+            <img src="{{ project.imageA }}" alt="">
+          </div>
+          <div class="column">
+            <img src="{{ project.imageB }}" alt="">
+          </div>
+        </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <div class="columns">
+          <div class="column">
+            <h2 class='project-title'>{{ project.title }}</h2>
+          </div> 
+        </div>
+
+        <div class="columns">
+          <div class="column">
+            <div class="wrapper">
+              <p>{{ project.subtitle }}</p>
+            </div>
+          </div>  
+
+          <div class="column">
+            <div class="wrapper">
+              <ul class='project-meta'>
+                <li><p>Tech: Rails, jQuery, Handlebars, Canvas</p></li>
+                <li><p>Github / Web</p></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="wrapper">
+              <span class="project-meta"></span>
+            </div>
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</article>

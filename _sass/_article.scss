@@ -1,0 +1,41 @@
+.article {
+
+}
+
+.article-header {
+
+}
+
+.article-title {
+  background-color: #333;
+  color: #f6f6f6;
+  display: inline-block;
+  font-size: 2em;
+  margin-bottom: .5em;
+  padding: 0 .5em;
+}
+
+.article-subtitle {
+  color: lighten($black, 30%);
+  font-size: 2em;
+  line-height: 1.3em;
+}
+
+.article-content {
+
+}
+
+.article-footer {
+
+}
+
+@media only screen and (min-width: $mid-break) {
+  .article {
+    margin-left: 5em;
+  }
+
+  .article-subtitle {
+    margin-left: -1em;
+    max-width: 800px;
+  }
+}

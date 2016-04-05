@@ -1,7 +1,6 @@
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
-  background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -33,6 +32,10 @@ a {
     color: $text-color;
     text-decoration: underline;
   }
+}
+
+p {
+  line-height: $base-line-height;
 }
 
 blockquote {
@@ -80,6 +83,19 @@ hr {
   padding: 0;
 }
 
-@media only screen and (min-width: 35em) {
+.intro-content {
+  border-bottom: $bottom-border;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-bottom: 0em;
+  padding-bottom: 1em;
+}
+
+.intro-content p {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: $mid-break) {
 
 }
