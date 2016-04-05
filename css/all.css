@@ -416,6 +416,10 @@ dl, dd, ol, ul, figure {
 
   .intro {
     padding-right: 30%; } }
+.border-right {
+  border-right: 5px solid #ddd;
+  margin-right: 5px; }
+
 .columns {
   display: flex;
   flex-direction: row;
