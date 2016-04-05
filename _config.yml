@@ -7,3 +7,4 @@ url: "https://jobenko.com"
 twitter_username: j0benk0
 github_username:  joelkbennett
 markdown: kramdown
+destination:  ./dist
