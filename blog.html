@@ -6,10 +6,13 @@ permalink: /blog/
 subtitle: Words and images covering the topics of programming, design, tech, photography, drawing &amp; beer
 ---
 
-<article id="blog" class='article'>
-
-  {% for project in site.categories.blog %}
-    
+<section id="blog">
+  {% for post in site.categories.blog %}
+    <div class="teaser">
+      <img src="http://placehold.it/800x300" alt="">
+      <h1>{{ post.title }}</h1>
+      <h2>{{ post.subtitle }}</h2>
+      <h3>{{ post.date }}</h3>
+    </div>
   {% endfor %}
-
-</article>
+</section>

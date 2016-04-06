@@ -37,11 +37,21 @@ figcaption {
   max-width: 350px;
 }
 
-// .logo-outlines {
-//   display: none;
-// }
+.image-shadow {
+  margin-right: 10px;
+}
+
+.project-image {
+  box-shadow: 5px 5px 0px #999;
+  margin-bottom: 10px;
+}
 
 @media only screen and (min-width: $mid-break) {
+  .project-image {
+    margin-bottom: 0;
+    max-width: 95%;
+  }
+
   .icon {
     > svg {
       path {

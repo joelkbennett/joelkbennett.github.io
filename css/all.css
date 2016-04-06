@@ -416,10 +416,6 @@ dl, dd, ol, ul, figure {
 
   .intro {
     padding-right: 30%; } }
-.border-right {
-  border-right: 5px solid #ddd;
-  margin-right: 5px; }
-
 .columns {
   display: flex;
   flex-direction: row;
@@ -540,7 +536,18 @@ figcaption {
 #logo-jobenko {
   max-width: 350px; }
 
+.image-shadow {
+  margin-right: 10px; }
+
+.project-image {
+  box-shadow: 5px 5px 0px #999;
+  margin-bottom: 10px; }
+
 @media only screen and (min-width: 60em) {
+  .project-image {
+    margin-bottom: 0;
+    max-width: 95%; }
+
   .icon > svg path {
     fill: white; } }
 ul, ol {
@@ -574,6 +581,7 @@ textarea {
   border-bottom: thin solid #212435;
   font-size: 1.2em;
   font-weight: 300;
+  max-width: 480px;
   padding: .5em 0 1em 0;
   text-transform: uppercase; }
 
@@ -697,7 +705,7 @@ textarea {
   100% {
     transform: translateX(0px); } }
 .site-header {
-  background: url("/images/header-bg-alt.jpg") no-repeat;
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.25), transparent 350px), url("/images/header-bg-alt.jpg") no-repeat;
   background-size: cover;
   width: 100%; }
 
@@ -706,6 +714,9 @@ textarea {
 
 @media only screen and (min-width: 60em) {
   .site-header {
+    background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.25), transparent 700px), url("/images/header-bg-alt.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -735,11 +746,13 @@ textarea {
 
 @media only screen and (min-width: 60em) {
   .article {
-    margin-left: 5em;
+    margin-left: 3em;
     margin-right: 1em; }
 
+  .article-title {
+    margin-left: -2em; }
+
   .article-subtitle {
-    margin-left: -1em;
     max-width: 700px; } }
 @media only screen and (min-width: 60em) {
   .page-content {
