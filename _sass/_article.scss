@@ -38,12 +38,15 @@
 
 @media only screen and (min-width: $mid-break) {
   .article {
-    margin-left: 5em;
+    margin-left: 3em;
     margin-right: 1em;
   }
 
+  .article-title {
+    margin-left: -2em;
+  }
+
   .article-subtitle {
-    margin-left: -1em;
     max-width: 700px;
   }
 }
