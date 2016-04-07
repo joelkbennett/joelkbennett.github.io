@@ -37,6 +37,7 @@ a {
 
 p {
   line-height: $base-line-height;
+  margin-bottom: 1em;
 }
 
 blockquote {
@@ -95,6 +96,13 @@ hr {
 
 .intro-content p {
   margin-bottom: 0;
+}
+
+span.date {
+  background-color: #eee;
+  font-size: .65em;
+  margin-right: .5em;
+  text-transform: uppercase;
 }
 
 @media only screen and (min-width: $mid-break) {
