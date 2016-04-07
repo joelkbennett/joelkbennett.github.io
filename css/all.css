@@ -458,7 +458,8 @@ a {
     text-decoration: none; }
 
 p {
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin-bottom: 1em; }
 
 blockquote {
   color: #888;
@@ -507,6 +508,12 @@ hr {
 .intro-content p {
   margin-bottom: 0; }
 
+span.date {
+  background-color: #eee;
+  font-size: .65em;
+  margin-right: .5em;
+  text-transform: uppercase; }
+
 audio,
 canvas,
 iframe,
@@ -540,7 +547,7 @@ figcaption {
   margin-right: 10px; }
 
 .project-image {
-  box-shadow: 5px 5px 0px #999;
+  box-shadow: 5px 5px 15px #ccc;
   margin-bottom: 10px; }
 
 @media only screen and (min-width: 60em) {
@@ -731,8 +738,10 @@ textarea {
   display: inline-block;
   font-size: 1.5em;
   font-weight: 300;
+  line-height: 1.1em;
   margin-bottom: 1.5em;
-  padding: 0 .5em;
+  max-width: 400px;
+  padding: .2em .5em .3em .5em;
   text-transform: uppercase; }
 
 .article-subtitle {
@@ -748,6 +757,9 @@ textarea {
   .article {
     margin-left: 3em;
     margin-right: 1em; }
+
+  .article-post {
+    max-width: 700px; }
 
   .article-title {
     margin-left: -2em; }
@@ -766,6 +778,12 @@ textarea {
   margin-top: -50px;
   padding: 0 .5em;
   padding-bottom: em; }
+
+.article-post img {
+  margin-bottom: 2em; }
+
+.teaser {
+  margin-top: 2em; }
 
 .site-footer {
   width: 100%; }

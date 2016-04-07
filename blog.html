@@ -3,16 +3,16 @@ layout: page
 body-tag: blog
 title: Words/Sketches
 permalink: /blog/
-subtitle: Words and images covering the topics of programming, design, tech, photography, drawing &amp; beer
+subtitle: Words and images covering my thoughts on programming, design, tech, photography, drawing &amp; beer
 ---
 
 <section id="blog">
   {% for post in site.categories.blog %}
     <div class="teaser">
-      <img src="http://placehold.it/800x300" alt="">
-      <h1>{{ post.title }}</h1>
-      <h2>{{ post.subtitle }}</h2>
-      <h3>{{ post.date }}</h3>
+	  <a href='{{ post.url }}'>
+	      <h2><span class="date">{{ post.date | date: '%B %d, %Y' }}</span> {{ post.title }}</h2>
+      </a>
+      <!-- <h3>{{ post.date }}</h3> -->
     </div>
   {% endfor %}
 </section>
