@@ -1,10 +1,14 @@
 ---
 layout: default
 body-tag: projects
+subtitle:
 ---
 
 <article id="project" class='article'>
-  <h1 class="page-heading article-title">Recent Projects</h1>
+  <header class="article-header">
+    <h1 class="page-heading article-title">Recent Projects</h1>
+    <h2 class="article-subtitle"><span>{{ page.subtitle }}</a></span></h2>
+  </header>
 
   <ul class="project-list">
     {% for project in site.categories.project %}

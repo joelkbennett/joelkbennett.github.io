@@ -9,7 +9,7 @@ headerImg: vtl-sketch.jpg
 permalink: /blog/:title/
 published: false
 ---
-I've been volunteering at the Vancouver Tool Library for almost 4 months now, which means you'll find me sitting behind the counter every second Sunday from 10 til 3. Coming in off the street, you might be tempted to ask me for advice or an opinion on your current/next project. You will probably be disappointed, because I know almost nothing about cutting, chopping, nailing, screwing, building, glueing, or sanding. Generally speaking, I don't know how the hell things are built.
+<span class='caps'>I've been volunteering</span> at the Vancouver Tool Library for almost 4 months now, which means you'll find me sitting behind the counter every second Sunday from 10 til 3. Coming in off the street, you might be tempted to ask me for advice or an opinion on your current/next project. You will probably be disappointed, because I know almost nothing about cutting, chopping, nailing, screwing, building, glueing, or sanding. Generally speaking, I don't know how the hell things are built.
 
 This is essentially why I decided to volunteer. I've been a member for a good number of years (with a nice and low member number to prove it), but I haven't really done anything with it. I maintain my bikes... maybe a couple of times a years I need something cut or bend or whatevered for my brewing setup, but otherwise, I've been slow to get projects rolling. Not that I haven't had ideas.
 
