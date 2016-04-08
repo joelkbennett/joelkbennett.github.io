@@ -14,12 +14,11 @@ subtitle:
     {% for project in site.categories.project %}
       <li>
         <div class="columns">
-          <div class="column">
-            <img class='project-image' src="/images/{{ project.imageA }}" alt="{{ project.title }} screenshot">
-          </div>
-          <div class="column">
-            <img class='project-image' src="/images/{{ project.imageB }}" alt="{{ project.title }} screenshot">
-          </div>
+          {% for image in project.images %}
+            <div class="column">
+              <img class='project-image' src="/images/{{ image }}" alt="{{ project.title }} screenshot">
+            </div>
+          {% endfor %}
         </div>
 
         <div class="columns">
