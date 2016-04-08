@@ -10,7 +10,7 @@ permalink: /blog/:title/
 published: true
 ---
 
-I told myself I wasn't going to draw all over this notebook. This one's for words, and words only, I thought. Not that I dislike doodling in the margins; it's just that I tend to let things go too far.
+<span class='caps'>I told myself</span> I wasn't going to draw all over this notebook. This one's for words, and words only, I thought. Not that I dislike doodling in the margins; it's just that I tend to let things go too far.
 
 I did have a good run. Made it all the way to page 66. All it took was a lecture at Lighthouse that went a bit off the rails, and now I've got another sketchbook.
 

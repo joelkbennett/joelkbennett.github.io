@@ -449,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: #212435;
-  text-decoration: none;
+  text-decoration: underline;
   transition: all .25s linear; }
   a:visited {
     color: #040406; }
@@ -512,6 +512,10 @@ span.date {
   background-color: #eee;
   font-size: .65em;
   margin-right: .5em;
+  text-transform: uppercase; }
+
+.caps {
+  font-weight: 900;
   text-transform: uppercase; }
 
 audio,
@@ -753,6 +757,9 @@ textarea {
 .article-subtitle span {
   background-color: #E4E0E3; }
 
+.article-content h2 {
+  margin-left: -1em; }
+
 @media only screen and (min-width: 60em) {
   .article {
     margin-left: 3em;
@@ -769,7 +776,7 @@ textarea {
 @media only screen and (min-width: 60em) {
   .page-content {
     padding-right: 6em;
-    max-width: 1000px; } }
+    max-width: 700px; } }
 .project-title {
   background-color: white;
   border-bottom: 5px solid #ddd;
@@ -779,11 +786,21 @@ textarea {
   padding: 0 .5em;
   padding-bottom: em; }
 
+#project .article-header {
+  margin-bottom: 2em; }
+
 .article-post img {
   margin-bottom: 2em; }
 
 .teaser {
   margin-top: 2em; }
+
+.breadcrumb {
+  font-style: italic;
+  margin-bottom: 1em; }
+
+.blog-header-image {
+  border-top: 10px solid #333; }
 
 .site-footer {
   width: 100%; }
