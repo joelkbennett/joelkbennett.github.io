@@ -6,12 +6,20 @@
   align-content: flex-start;
 }
 
-.column {
+.column, .column-2, .column-3, .column-4 {
   width: 100%;
 }
 
 @media only screen and (min-width: $mid-break) {
-  .column {
+  .column-2 {
     width: 50%;
+  }
+
+  .column-3 {
+  	width: 33%
+  }
+
+  .column-4 {
+  	width: 25%
   }
 }
