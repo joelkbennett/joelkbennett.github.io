@@ -4,9 +4,9 @@ title:  'Syncline'
 subtitle: 'A tool aimed at geotechnical engineers to streamline the process of collecting, reviewing and approving site investigation information.'
 date:   2016-04-04 10:34:20 -0700
 category: project
+col: 2
 tech: Ruby/Rails, Postgres, Javascript/jQuery, Bulma, MapBox, Photoshop, Illustrator
-imageA: syncline-1.jpg
-imageB: syncline-2.jpg
+images: [ syncline-1.jpg, syncline-2.jpg ]
 web_link: http://syncline.ca
 github_link: https://joelkbennett.github.com/syncline
 published: true
