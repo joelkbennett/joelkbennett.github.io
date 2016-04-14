@@ -8,8 +8,14 @@
   padding-bottom: em;
 }
 
-#project .article-header {
-	margin-bottom: 2em;
+#project {
+  p {
+    font-size: .9em;
+  }
+
+  .article-header {
+	  margin-bottom: 2em;
+  }
 }
 
 @media only screen and (min-width: 35em) {

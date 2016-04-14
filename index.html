@@ -16,7 +16,7 @@ subtitle:
         <div class="columns">
           {% for image in project.images %}
             <div class="column column-{{ project.col }}">
-              <img class='' src="/images/{{ image }}" alt="{{ project.title }} screenshot">
+              <img class='project-image' src="/images/{{ image }}" alt="{{ project.title }} screenshot">
             </div>
           {% endfor %}
         </div>
@@ -38,7 +38,15 @@ subtitle:
             <div class="wrapper">
               <ul class='project-meta'>
                 <li><p><strong><em>Tech:</em></strong> {{ project.tech }}</p></li>
-                <li><p><strong><em>Links:</em></strong> Github / Web</p></li>
+                <li><p><strong><em>Links:</em></strong>
+                  {% if project.github_link %}
+                    <a href='{{ project.github_link }}'>Github</a>
+                  {% endif %}
+                  {% if project.github_link and project.web_link %}/{% endif %} 
+                  {% if project.web_link %}
+                  <a href='{{ project.web_link }}'>Web</a>
+                  {% endif %}
+                </p></li>
               </ul>
             </div>
           </div>

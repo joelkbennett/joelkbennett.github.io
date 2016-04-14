@@ -794,6 +794,8 @@ textarea {
   padding: 0 .5em;
   padding-bottom: em; }
 
+#project p {
+  font-size: .9em; }
 #project .article-header {
   margin-bottom: 2em; }
 
