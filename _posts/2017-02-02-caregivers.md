@@ -6,7 +6,7 @@ date:   2017-02-02 10:34:20 -0700
 category: project
 col: 2
 tech: Javascript/jQuery PHP, MySQL, SASS, Photoshop, Illustrator
-images: [  ]
+images: [ cfc-1.jpg, cfc-2.jpg ]
 web_link: https://www.storiesforcaregivers.com/
 published: true
 ---
