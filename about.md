@@ -3,7 +3,7 @@ layout: page
 body-tag: about
 title: About
 permalink: /about/
-subtitle: Joel Bennett is a Web Developer &amp; Graphic Designer based in Vancouver, BC
+subtitle: Joel Bennett is a Web Developer based in Vancouver, BC
 ---
 
 I am a Full Stack Web Developer and experienced Graphic Designer with a passion for building online experiences and
@@ -18,6 +18,8 @@ jump into new projects and contribute.
 As a Graphic Designer working for both print and web, I bring a wealth of experience to front-end design, encompassing
 grid theory and layout design, typography and color. I have well over 10 years of experience with Adobe Photoshop,
 Illustrator and InDesign.
+
+Oh, by the way, I'm currently a Front-End Developer at The Coup Company, where we work for clients such as CBC, Telus, Telus Fund, VIFF, Canada Games, Wattpad, The Radcliffe Foundation, and more!
 
 Get in touch at <a mailto='joelkbennett@gmail.com'>joelkbennett@gmail.com</a>. Find me at <a href='https://github.com/joelkbennett'>github</a>, on <a href='https://twitter.com/j0benk0'>twitter</a> and on <a href='https://www.flickr.com/photos/126310476@N02/'>flickr</a>.
 
